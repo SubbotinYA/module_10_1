@@ -31,8 +31,8 @@ def run_potok(spisok:list):
     run_time = end_time - start_time
     return print(f'Работа потока {run_time}')
 
-# wite_words(10, 'example1.txt')
-# wite_words(30, 'example2.txt')
-# wite_words(200, 'example3.txt')
-# wite_words(100, 'example4.txt')
+wite_words(10, 'example1.txt')
+wite_words(30, 'example2.txt')
+wite_words(200, 'example3.txt')
+wite_words(100, 'example4.txt')
 run_potok(list_potokov)
